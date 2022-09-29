@@ -1,0 +1,165 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(50, 158, 50);
+    padding: 10px;
+    margin-bottom: 5px;
+    gap: 10px;
+}
+.grid-inline{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(50, 158, 50);
+    padding: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: ghostwhite;
+}
+.item1 {
+    grid-area: myArea;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: honeydew;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: 
+    "h h h"
+    "a b c"
+    "d d d";
+    margin-top: 10px;
+}
+.item1{
+    grid-area: h;
+}
+.item2{
+    grid-area: a;
+}
+.item3{
+    grid-area: b;
+}
+.item4{
+    grid-area: c;
+}
+.item5{
+    grid-area: d;
+}
+.grid-layout > div{
+    background-color: honeydew;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.grid-layout-span{
+    background-color: rgb(50, 158, 50);
+    display: grid;
+    border: 1px solid black;
+    font-size: 3rem;
+    font-weight: bold;       
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.itemspan{
+    border: 1px solid black;
+    text-align: center;
+    background-color: honeydew;
+}
+.itemspan1{
+    grid-column: span 2;
+}
+.itemspan3{
+    grid-row: span 2;
+}
+.inputtextdiv{
+    width: 180px;
+}
+.textdive{
+    width: 230px;
+}
+.genterfirst{
+    margin-right: 20px;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+.sampletext{
+    font-size: 30px;
+    text-decoration: underline;
+}
+p.formtext {
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: justify;
+}
+.divtextitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 68px 0 75px;
+}
+.note {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-right: 20px;
+}
+.part{
+    font-size: 20px;
+    padding-left: 68px;
+    font-weight: 700;
+}
+table {
+    width: 93%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 20px;
+}
+th, td{
+    border: 1px solid black;
+    height: 40px;
+    padding-left: 10px;
+}
+.position{
+    width: 490px;
+}
+.inputfield{
+    width: 98%;
+    border: none;
+    height: 30px;
+}
+input:focus{
+    outline: none;
+}
+.qualification{
+    height: 40px;
+}
+p{
+    margin: 0;
+}
+.ptag{
+    font-weight: 700;
+}
+span.omgfnumber {
+    width: 41px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+    display: inline-block;
+    border-left: 1px solid black;
+}
+input.inputfield.inputnumber {
+    text-align: center;
+    font-size: 20px;
+}

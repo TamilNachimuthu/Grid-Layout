@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="gridsystem.css" />
+    <title>Grid Layout</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+      <div class="grid-item">7</div>
+      <div class="grid-item">8</div>
+      <div class="grid-item">9</div>
+    </div>
+    <div class="grid-inline">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+      <div class="grid-item">7</div>
+      <div class="grid-item">8</div>
+      <div class="grid-item">9</div>
+    </div>
+    <div class="grid-layout">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item4">4</div>
+      <div class="item5">5</div>
+    </div>
+    <div class="grid-layout-span">
+      <div class="itemspan itemspan1">1</div>
+      <div class="itemspan">2</div>
+      <div class="itemspan itemspan3">3</div>
+      <div class="itemspan">4</div>
+      <div class="itemspan itemspan5">5</div>
+      <div class="itemspan">6</div>
+      <div class="itemspan">7</div>
+      <div class="itemspan">8</div>
+    </div>
+
+    <div class="formdesign">
+      <h1><span class="sampletext">SAMPLE</span> APPLICATION FORM</h1>
+      <div class="divtextitem">
+        <span class="note">Note:</span>
+        <p class="formtext">
+          This form is just Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Harum aut suscipit beatae voluptatum ipsum quae, a fugiat dolor
+          commodi soluta! Ab, distinctio? Cum pariatur consectetur id inventore
+          laudantium libero quidem? This form is just Lorem ipsum dolor sit amet
+          consectetur adipisicing elit.
+        </p>
+      </div>
+      <span class="part">Part A:</span><br /><br />
+      <span class="part">A1.Personal Details:</span>
+      <table>
+        <tr>
+          <th class="inputtextdiv"><span>Title {Tik the correct one}</span></th>
+          <td class="textdive">
+            Mr.
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+          </td>
+          <td class="textdive">
+            Mrs.
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+          </td>
+          <td class="textdive">
+            Miss.
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+          </td>
+          <td>
+            Other State title.
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+          </td>
+        </tr>
+        <tr>
+          <th class="inputtextdiv"><label for="Surname">Surname</label></th>
+          <td colspan="4">
+            <input name="Surname" id="Surname" class="inputfield" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <th class="inputtextdiv">
+            <label for="OtherNames">Other Names</label>
+          </th>
+          <td colspan="4">
+            <input
+              name="OtherNames"
+              id="OtherNames"
+              class="inputfield"
+              type="text"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th class="inputtextdiv">
+            <label for="OmangNumber">Omang Number</label>
+          </th>
+          <td
+            colspan="2"
+            name="OmangNumber"
+            id="OmangNumber"
+            class="omangnumbersdiv"
+          >
+            <span class="omgfnumber"
+              ><input class="inputfield inputnumber" type="text" maxlength="1"
+            /></span>
+            <span class="omgfnumber"
+              ><input class="inputfield inputnumber" type="text" maxlength="1"
+            /></span>
+            <span class="omgfnumber"
+              ><input class="inputfield inputnumber" type="text" maxlength="1"
+            /></span>
+            <span class="omgfnumber"
+              ><input class="inputfield inputnumber" type="text" maxlength="1"
+            /></span>
+            <span class="omgfnumber"
+              ><input class="inputfield inputnumber" type="text" maxlength="1"
+            /></span>
+            <span class="omgfnumber"
+              ><input class="inputfield inputnumber" type="text" maxlength="1"
+            /></span>
+            <span class="omgfnumber"
+              ><input class="inputfield inputnumber" type="text" maxlength="1"
+            /></span>
+            <span class="omgfnumber"
+              ><input class="inputfield inputnumber" type="text" maxlength="1"
+            /></span>
+            <span class="omgfnumber"
+              ><input class="inputfield inputnumber" type="text" maxlength="1"
+            /></span>
+            <span class="omgfnumber"
+              ><input class="inputfield inputnumber" type="text" maxlength="1"
+            /></span>
+          </td>
+          <th class="inputtextdiv">Date of Birth</th>
+          <td colspan="1"><input class="inputfield" type="date" /></td>
+        </tr>
+        <tr>
+          <th class="inputtextdiv">Gender</th>
+          <td>
+            <span class="genterfirst">
+              Male
+              <input
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle1"
+                value="Bike"
+              />
+            </span>
+            Female
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+          </td>
+          <th class="inputtextdiv">Marital Status</th>
+          <td colspan="4">
+            Married
+            <input
+              class="genterfirst"
+              type="checkbox"
+              id="Married"
+              name="Married"
+              value="Married"
+            />
+            Single
+            <input
+              class="genterfirst"
+              type="checkbox"
+              id="Single"
+              name="Single"
+              value="Single"
+            />
+            Divorced
+            <input
+              class="genterfirst"
+              type="checkbox"
+              id="Single"
+              name="Single"
+              value="Single"
+            />
+            Widowed
+            <input type="checkbox" id="Single" name="Single" value="Single" />
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th class="inputtextdiv">
+            <label for="Postaladdress">Postal Address</label>
+          </th>
+          <td colspan="7">
+            <input
+              name="Postaladdress"
+              id="Postaladdress"
+              class="inputfield"
+              type="text"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th class="inputtextdiv">
+            <label for="Physicaladdress">Physical Address</label><br />
+            <label for="District">District</label>
+          </th>
+          <td colspan="7">
+            <input
+              name="Physicaladdress"
+              id="Physicaladdress"
+              class="inputfield"
+              type="text"
+            /><br />
+            <input
+              name="District"
+              id="District"
+              class="inputfield"
+              type="text"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th class="inputtextdiv">
+            <label for="address">What is your privious address?</label>
+          </th>
+          <td class="position">
+            <input
+              name="address"
+              id="address"
+              class="inputfield"
+              type="address"
+            />
+          </td>
+          <td class="inputtextdiv ptag">
+            <label for="Cell">Cell phone</label>
+            <input name="Cell" id="Cell" class="inputfield" type="text" />
+          </td>
+          <td class="inputtextdiv ptag">
+            <label for="Telephone">Telephone</label>
+            <input
+              name="Telephone"
+              id="Telephone"
+              class="inputfield"
+              type="text"
+            />
+          </td>
+          <td class="inputtextdiv ptag">
+            <label for="Fax">Fax</label>
+            <input name="Fax" id="Fax" class="inputfield" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <th class="inputtextdiv">
+            <label for="long">How long have you been at this address?</label>
+          </th>
+          <td colspan="7">
+            <input name="long" id="long" class="inputfield" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <th class="inputtextdiv"><label for="Email">Email</label></th>
+          <td colspan="7">
+            <input name="Email" id="Email" class="inputfield" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <th class="inputtextdiv">
+            <label for="address">Name and address of Employer</label>
+          </th>
+          <td colspan="7">
+            <input name="address" id="address" class="inputfield" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <th class="inputtextdiv">
+            <label for="Position">Your Position at your work</label>
+          </th>
+          <td class="position">
+            <input
+              name="Position"
+              id="Position"
+              class="inputfield"
+              type="text"
+            />
+          </td>
+          <th><label for="salary"> Salary per Month</label></th>
+          <td colspan="4">
+            <input name="salary" id="salary" class="inputfield" type="text" />
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>
+            <p class="ptag">
+              <label for="qualification"
+                >What qualification do you hold? What specific training or
+                experience have you acquired to run this business</label
+              >
+            </p>
+            <input
+              id="qualification"
+              name="qualification"
+              class="inputfield qualification"
+              type="text"
+            />
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>
+            <p class="ptag">
+              <label for="Business">Type of Business</label>
+            </p>
+            <input
+              id="Business"
+              name="Business"
+              class="inputfield qualification"
+              type="text"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
